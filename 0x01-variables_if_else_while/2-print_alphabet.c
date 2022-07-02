@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /*
  *
  *main -> Write a program that prints the
