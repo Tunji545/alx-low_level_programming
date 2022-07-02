@@ -1,18 +1,13 @@
 #include <stdio.h>
 #include <ctype.h>
-/*
+/**
+ *  *main -> assign a random number
  *
- *main -> Write a program that prints the
+ *   *and print the last digit of the
  *
- *alphabet in lowercase,
+ *    *Return: Always 0 (Success)
  *
- *Return: Always O (success)
- *
- **/
-
-
-
-
+ */
 int main(void)
 
 {
@@ -24,7 +19,4 @@ int main(void)
 	}
 	putchar(10);
 	return (0);
-
-
-
 }
