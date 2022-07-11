@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
 *  *_isalpha - checks for alphabetic characters
 *
@@ -8,14 +9,9 @@
 */
 int _isalpha(int c)
 {
-	int x;
-
-	for (x = 'a'; x <= 'z'; x++; || x = 'A'; x <= 'Z'; x++)
+	if (isalpha(c)
 	{
-		if (x == c)
-		{
-			return (1);
-		}
+		return (1);
 	}
 	return (0);
 }
