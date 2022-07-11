@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-*  *print_alphabet_10x - print all alphabet in
+*  *print_alphabet_x10 - print all alphabet in
 *
 *   *lowercase 10times followed by a newline
 */
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 	int x;
 	int y;
