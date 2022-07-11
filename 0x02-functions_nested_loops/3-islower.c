@@ -15,7 +15,6 @@ int isLower(int c)
 		if (c == x)
 		{
 			return (1);
-			return isLower(c);
 		}
 	}
 	_putchar('\n');
