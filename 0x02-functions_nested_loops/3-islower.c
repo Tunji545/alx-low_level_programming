@@ -17,11 +17,7 @@ int isLower(int c)
 			return (1);
 			return isLower(c);
 		}
-		else
-		{
-			return (0);
-			return isLower(c);
-		}
 	}
 	_putchar('\n');
+	return (0);
 }
