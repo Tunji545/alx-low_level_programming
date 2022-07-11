@@ -10,7 +10,7 @@ int _isalpha(int c)
 {
 	int x;
 
-	for ((x >= 'a' && x <= 'z') || (x >= 'A' && x <= 'Z');)
+	for ((x = 'a'; x <= 'z'; x++) || (x = 'A'; x <= 'Z'; x++))
 	{
 		if (x == c)
 		{
