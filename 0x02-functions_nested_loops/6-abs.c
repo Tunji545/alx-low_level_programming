@@ -13,7 +13,15 @@ int _abs(int n)
 {
 	int x;
 
-	x = abs(n);
+	if(n < 0)
+	{
+		n = -n;
+		x = abs(n)
+		_putchar(x);
+		_putchar('\n');
+		return (0);
+	}
+	x = abs(n)
 	_putchar(x);
 	_putchar('\n');
 	return (0);
