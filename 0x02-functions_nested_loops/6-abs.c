@@ -13,11 +13,13 @@
 */
 int _abs(int n)
 {
-	unsigned int x;
-	int const mask = mask = n >> sizeof(int) * (CHAR_BIT - 1);
-
-	x = (n + mask) ^ mask;
-	putchar(x);
-	putchar('\n');
-	return (0);
+	if (n < 0)
+	{
+		return (n * (-1));
+	}
+	else if (n == 0)
+	{
+		return (0);
+	}
+	return (n);
 }
