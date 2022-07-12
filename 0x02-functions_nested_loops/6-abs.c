@@ -10,17 +10,11 @@
 *
 *     *Return: 0
 */
-int _abs(int n)
+int _abs(int)
 {
-	int x;
-
-	x = abs(n) % 10;
-	printf("%d\n", x);
+	unsigned int x;
+	int const mask = n >> sizeof(int) * CHAR_BIT - 1;
+	putchar(mask);
+	putchar('\n');
 	return (0);
-	if (n < 0)
-	{
-		x = -x;
-		printf("%d\n", x);
-		return (0);
-	}
 }
