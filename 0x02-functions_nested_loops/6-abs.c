@@ -14,8 +14,7 @@
 int _abs(int n)
 {
 	unsigned int x;
-	int const mask;
-		mask = n >> sizeof(int) * (CHAR_BIT - 1);
+	int const mask = mask = n >> sizeof(int) * (CHAR_BIT - 1);
 
 	x = (n + mask) ^ mask;
 	putchar(x);
