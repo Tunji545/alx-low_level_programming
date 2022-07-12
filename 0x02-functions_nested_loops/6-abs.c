@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 #include "stdlib.h"
 /**
 *  *_abs - computes the absolute
@@ -14,13 +15,11 @@ int _abs(int n)
 	int x;
 
 	x = abs(n) % 10;
-	_putchar(x);
-	_putchar('\n');
+	printf("%d\n", x)
 	if (n < 0)
 	{
 		x = -x;
-		_putchar(x);
-		_putchar('\n');
+		printf("%d\n", x);
 	}
 	return (0);
 }
