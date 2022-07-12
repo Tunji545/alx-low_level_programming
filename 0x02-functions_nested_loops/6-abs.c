@@ -15,11 +15,12 @@ int _abs(int n)
 	int x;
 
 	x = abs(n) % 10;
-	printf("%d\n", x)
+	printf("%d\n", x);
+	return (0);
 	if (n < 0)
 	{
 		x = -x;
 		printf("%d\n", x);
+		return (0);
 	}
-	return (0);
 }
