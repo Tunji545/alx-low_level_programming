@@ -12,9 +12,10 @@ void print_to_98(int n)
 {
 	int i;
 
-	for(n = 0; m <= 98; n++)
+	for (n = 0; n <= 98; n++)
 	{
 		_printf(n);
+		_printf(',');
 		_printf(' ');
 	}
 	return (0);
